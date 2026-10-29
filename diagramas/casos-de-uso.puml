@@ -1,0 +1,47 @@
+@startuml casos-de-uso
+' Diagrama de casos de uso — Sistema de Gestión GineSalud
+' Reconstruido a partir de la Figura 1 del documento del proyecto (v1.0).
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle default
+
+actor "Dueño de la clínica" as Dueno
+actor "Ginecólogo" as Gine
+actor "Recepcionista" as Recep
+actor "Paciente" as Pac
+
+' El dueño de la clínica también es ginecólogo
+Dueno -|> Gine
+
+rectangle "Sistema de Gestión GineSalud" {
+  package "Gestión Gerencial" {
+    usecase "HU-10: Consultar reportes" as HU10
+  }
+  package "Atención Médica" {
+    usecase "HU-03: Consultar expediente" as HU03
+    usecase "HU-04: Registrar atención" as HU04
+    usecase "HU-06: Emitir recetas y órdenes" as HU06
+  }
+  package "Administración (Recepción)" {
+    usecase "HU-01: Registrar pacientes" as HU01
+    usecase "HU-02: Gestionar citas" as HU02
+    usecase "HU-07: Registrar pagos y facturar" as HU07
+    usecase "HU-09: Cerrar caja" as HU09
+  }
+  package "Atención al Paciente" {
+    usecase "HU-05: Recordatorios automáticos" as HU05
+    usecase "HU-08: Citas por WhatsApp" as HU08
+  }
+}
+
+Dueno --> HU10
+Gine --> HU03
+Gine --> HU04
+Gine --> HU06
+Recep --> HU01
+Recep --> HU02
+Recep --> HU07
+Recep --> HU09
+Pac --> HU05
+Pac --> HU08
+@enduml
