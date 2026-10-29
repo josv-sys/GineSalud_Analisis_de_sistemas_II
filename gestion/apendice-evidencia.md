@@ -26,7 +26,7 @@ archivo `CHANGELOG.md`.
 ## Tablero Kanban
 
 La organización del trabajo se gestionó mediante un tablero Kanban en GitHub Projects
-(*GineSalud - Tablero Kanban*), vinculado al repositorio. Cada historia de usuario (HU-01 a
+(*GineSalud - Tablero Kanban*, <https://github.com/users/josv-sys/projects/1>), vinculado al repositorio. Cada historia de usuario (HU-01 a
 HU-10) y cada tarea de elaboración del documento se registró como una tarjeta (*issue*) con
 etiquetas por actor, prioridad y tipo de trabajo. Las tarjetas avanzan por las columnas
 **Todo** (por hacer), **In Progress** (en progreso) y **Done** (hecho), lo que permite

@@ -77,7 +77,7 @@ Detalle completo en [`docs/05-historias-usuario.md`](docs/05-historias-usuario.m
 ## Gestión del proyecto
 
 - **Metodología:** SCRUM (backlog priorizado y sprints), con estimación por Planning Poker y PERT.
-- **Tablero Kanban:** pestaña **Projects** de este repositorio (GitHub Projects), con una
+- **Tablero Kanban:** <https://github.com/users/josv-sys/projects/1> (GitHub Projects), con una
   tarjeta (issue) por historia de usuario y por tarea de documentación.
   Copia en Markdown: [`gestion/kanban.md`](gestion/kanban.md).
 - **Bitácora:** [`gestion/bitacora.md`](gestion/bitacora.md).
