@@ -33,28 +33,12 @@ con una estructura de datos preparada para generar indicadores en **Tableau**.
 
 ```
 .
-├── README.md                     ← este archivo
-├── CHANGELOG.md                  ← historial de versiones de los entregables
-├── CONTRIBUTING.md               ← flujo de trabajo del equipo (ramas, commits, Kanban)
-├── docs/                         ← documentación del proyecto en Markdown (versionable)
-│   ├── 01-introduccion.md        ← introducción, objetivo, justificación y alcance
-│   ├── 02-contexto-organizacion.md ← ficha de la empresa, procesos de negocio, cadena de valor
-│   ├── 03-analisis-situacion.md  ← problema, AS-IS, TO-BE
-│   ├── 04-requerimientos.md      ← RF y RNF con trazabilidad
-│   ├── 05-historias-usuario.md   ← HU-01 a HU-10 con criterios de aceptación
-│   └── 06-referencias.md
-├── diagramas/
-│   └── casos-de-uso.puml         ← fuente PlantUML del diagrama de casos de uso
-├── entregables/                  ← versiones oficiales (PDF) entregadas al profesor
-├── gestion/
-│   ├── kanban.md                 ← tablero Kanban (espejo del GitHub Project)
-│   ├── Bitacora_Equipo_GineSalud.docx ← bitácora oficial (formato del curso)
-│   ├── bitacora.md               ← la misma bitácora en Markdown
-│   ├── plantillas/               ← formato de bitácora para equipos (vacío)
-│   └── apendice-evidencia.md     ← texto listo para el Apéndice del documento
-├── scripts/
-│   └── crear-kanban.sh           ← crea etiquetas, issues y el tablero en GitHub
-└── .github/                      ← plantillas de issues (HU / tareas) y de pull requests
+├── README.md
+├── CHANGELOG.md                       ← historial de versiones entregadas
+├── docs/                              ← documento del proyecto por secciones
+├── diagramas/casos-de-uso.puml        ← diagrama UML de casos de uso (PlantUML)
+├── entregables/                       ← versiones oficiales en PDF
+└── gestion/Bitacora_Equipo_GineSalud.docx ← bitácora del equipo
 ```
 
 ## Historias de usuario
@@ -76,21 +60,10 @@ Detalle completo en [`docs/05-historias-usuario.md`](docs/05-historias-usuario.m
 
 ## Gestión del proyecto
 
-- **Metodología:** SCRUM (backlog priorizado y sprints), con estimación por Planning Poker y PERT.
-- **Tablero Kanban:** <https://github.com/users/josv-sys/projects/1> (GitHub Projects), con una
-  tarjeta (issue) por historia de usuario y por tarea de documentación.
-  Copia en Markdown: [`gestion/kanban.md`](gestion/kanban.md).
-- **Bitácora:** [`gestion/bitacora.md`](gestion/bitacora.md).
-- **Control de cambios:** cada cambio a la documentación se registra con un commit y,
-  al entregar, con una versión en [`CHANGELOG.md`](CHANGELOG.md) y un tag de Git (`v1.0`, `v1.1`, …).
-
-## Cómo ver el diagrama UML
-
-El diagrama de casos de uso está en formato PlantUML. Para verlo:
-
-1. Copiar el contenido de [`diagramas/casos-de-uso.puml`](diagramas/casos-de-uso.puml)
-   en <https://www.plantuml.com/plantuml/uml/>, o
-2. Usar la extensión *PlantUML* de VS Code (`Alt + D` para previsualizar).
+- **Metodología:** SCRUM, con estimación por Planning Poker y PERT.
+- **Tablero Kanban:** <https://github.com/users/josv-sys/projects/1>
+- **Bitácora:** [`gestion/Bitacora_Equipo_GineSalud.docx`](gestion/Bitacora_Equipo_GineSalud.docx)
+- **Versiones:** [`CHANGELOG.md`](CHANGELOG.md) y tags de Git (`v1.0`, …).
 
 ## Normativa considerada
 
