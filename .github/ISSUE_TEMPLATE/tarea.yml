@@ -1,0 +1,29 @@
+name: Tarea del documento
+description: Tarea de elaboración, revisión o corrección del documento del proyecto
+labels: ["documentacion"]
+body:
+  - type: input
+    id: seccion
+    attributes:
+      label: Sección del documento
+      placeholder: "Ej.: Modelo entidad-relación"
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción de la tarea
+    validations:
+      required: true
+  - type: textarea
+    id: terminado
+    attributes:
+      label: Criterio de terminado
+      value: |
+        - [ ] Contenido redactado en `docs/`
+        - [ ] Revisado por otro integrante
+        - [ ] Incorporado al documento oficial
+  - type: input
+    id: fecha
+    attributes:
+      label: Fecha límite
