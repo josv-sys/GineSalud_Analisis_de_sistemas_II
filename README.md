@@ -48,7 +48,9 @@ con una estructura de datos preparada para generar indicadores en **Tableau**.
 ├── entregables/                  ← versiones oficiales (PDF) entregadas al profesor
 ├── gestion/
 │   ├── kanban.md                 ← tablero Kanban (espejo del GitHub Project)
-│   ├── bitacora.md               ← bitácora de reuniones y avances del equipo
+│   ├── Bitacora_Equipo_GineSalud.docx ← bitácora oficial (formato del curso)
+│   ├── bitacora.md               ← la misma bitácora en Markdown
+│   ├── plantillas/               ← formato de bitácora para equipos (vacío)
 │   └── apendice-evidencia.md     ← texto listo para el Apéndice del documento
 ├── scripts/
 │   └── crear-kanban.sh           ← crea etiquetas, issues y el tablero en GitHub

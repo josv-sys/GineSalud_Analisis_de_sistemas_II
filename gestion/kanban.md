@@ -30,11 +30,12 @@ baja = integraciones externas o análisis futuro.
 ### Done (hecho)
 - DOC: Introducción, objetivo general, justificación y alcance
 - DOC: Ficha de la empresa y contexto del negocio
-- DOC: Modelado de procesos de negocio
-- DOC: Cadena de valor
-- DOC: Identificación de problema, necesidad y oportunidad
-- DOC: Situación actual (AS-IS) y propuesta (TO-BE)
-- DOC: Catálogo de requerimientos funcionales y no funcionales
+- DOC: Modelado de procesos de negocio — David Acuña Cordero
+- DOC: Cadena de valor — David Acuña Cordero
+- DOC: Identificación de problema, necesidad y oportunidad — Ariana Cespedes Alfaro
+- DOC: Situación actual (AS-IS) — Ariana Cespedes Alfaro
+- DOC: Situación propuesta (TO-BE) — Ariana Cespedes Alfaro
+- DOC: Catálogo de requerimientos funcionales y no funcionales — Ariana Cespedes Alfaro
 - DOC: Diagrama UML de casos de uso
 - DOC: Historias de usuario con criterios de aceptación
 - DOC: Referencias (formato APA)

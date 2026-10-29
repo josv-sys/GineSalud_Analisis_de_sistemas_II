@@ -1,71 +1,47 @@
-# Bitácora del equipo — Proyecto GineSalud
+# Bitácora de trabajo — Proyecto GineSalud
 
-**Curso:** Análisis de Sistemas II — Universidad Politécnica Internacional
-**Profesor:** Randolph Vega Ramírez
-**Equipo:** Melanny Fiorella Víquez Saborío · Josue Villarreal Saavedra · Ariana Céspedes Alfaro · David Acuña Cordero
-
-> Plantilla provisional. Ajustar los campos al **Formato de bitácora para equipos** del curso.
-> Agregar una entrada por cada reunión o sesión de trabajo, la más reciente al final.
-
----
-
-## Plantilla de entrada
-
-```markdown
-### Sesión N — AAAA-MM-DD
+Versión en Markdown de la bitácora oficial
+([`Bitacora_Equipo_GineSalud.docx`](Bitacora_Equipo_GineSalud.docx)), elaborada con el
+formato de bitácora para equipos del curso
+([`plantillas/FORMATO_BITACORA_PARA_EQUIPOS.docx`](plantillas/FORMATO_BITACORA_PARA_EQUIPOS.docx)).
 
 | Campo | Detalle |
 |---|---|
-| Fecha y hora | |
-| Modalidad | Presencial / Virtual (plataforma) |
-| Asistentes | |
-| Ausentes | |
-| Objetivo de la sesión | |
+| Universidad | Universidad Politécnica Internacional — Escuela de Ingeniería Informática |
+| Nombre del facilitador | Randolph Vega Ramírez |
+| Nombre del curso | Análisis de Sistemas II |
+| Fecha actual | 28 de octubre de 2026 |
+| Líder | Josue Villarreal Saavedra |
+| Integrantes | 1. Melanny Fiorella Víquez Saborío · 2. Ariana Cespedes Alfaro · 3. David Acuña Cordero · 4. Josue Villarreal Saavedra |
 
-**Actividades realizadas**
-- 
+## Asuntos tratados
 
-**Acuerdos y decisiones**
-- 
+Se distribuyeron entre los integrantes del equipo las secciones pendientes del documento del
+proyecto, de la siguiente manera:
 
-**Tareas asignadas**
-| Tarea (issue #) | Responsable | Fecha límite |
+- **Contexto de la organización:** Modelado de procesos de negocio y Cadena de valor se asignan
+  a David Acuña Cordero.
+- **Análisis de situación:** Identificación del problema, necesidad u oportunidad; Situación
+  actual (AS-IS); Situación propuesta (TO-BE) y Catálogo de requerimientos funcionales y no
+  funcionales se asignan a Ariana Cespedes Alfaro.
+- **Apéndice de evidencia:** Repositorio Git con documentación versionada, Tablero Kanban y
+  Bitácora se asignan a Josue Villarreal Saavedra.
+
+**Seguimiento:** las secciones asignadas a David Acuña Cordero y Ariana Cespedes Alfaro ya se
+encuentran incorporadas en el documento del proyecto. Las secciones del apéndice asignadas a
+Josue Villarreal Saavedra se encuentran en elaboración. A la fecha no se registran tareas
+incumplidas.
+
+## Acuerdos tomados
+
+| Tarea asignada | Responsable de realizarla | Fecha en que debe entregarla |
 |---|---|---|
-| | | |
-
-**Dificultades / observaciones**
-- 
-
-**Evidencia** (commits, issues, capturas): 
-```
-
----
-
-## Entradas
-
-### Sesión 1 — 2026-10-29
-
-| Campo | Detalle |
-|---|---|
-| Fecha y hora | 29 de octubre de 2026 |
-| Modalidad | Virtual |
-| Asistentes | Josue Villarreal Saavedra |
-| Ausentes | — |
-| Objetivo de la sesión | Preparar la sección *Apéndice Evidencia*: repositorio versionado, tablero Kanban y bitácora. |
-
-**Actividades realizadas**
-- Creación de la estructura del repositorio y del `README.md`.
-- Transcripción del documento v1.0 a Markdown en `docs/` para versionar cada sección.
-- Fuente PlantUML del diagrama de casos de uso en `diagramas/`.
-- Tablero Kanban en GitHub Projects con HU-01 a HU-10 y las tareas del documento.
-- Plantillas de issues para historias de usuario y tareas.
-
-**Acuerdos y decisiones**
-- Cada entrega se registra en `CHANGELOG.md` y con un tag de Git (`v1.0`, `v1.1`, …).
-
-**Tareas asignadas**
-| Tarea | Responsable | Fecha límite |
-|---|---|---|
-| Completar apéndice de evidencia en el documento | Josue Villarreal | |
-
-**Evidencia:** historial de commits del repositorio y tablero *GineSalud - Tablero Kanban*.
+| Modelado de procesos de negocio | David Acuña Cordero | |
+| Cadena de valor | David Acuña Cordero | |
+| Identificación del problema, necesidad u oportunidad | Ariana Cespedes Alfaro | |
+| Situación actual (AS-IS) | Ariana Cespedes Alfaro | |
+| Situación propuesta (TO-BE) | Ariana Cespedes Alfaro | |
+| Catálogo de requerimientos funcionales y no funcionales | Ariana Cespedes Alfaro | |
+| Repositorio Git con documentación versionada | Josue Villarreal Saavedra | |
+| Tablero Kanban | Josue Villarreal Saavedra | |
+| Bitácora del equipo | Josue Villarreal Saavedra | |
