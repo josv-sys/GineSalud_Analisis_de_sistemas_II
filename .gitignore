@@ -1,0 +1,15 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales de Office
+~$*
+*.tmp
+
+# Editores
+.vscode/
+.idea/
+
+# Exportaciones locales de PlantUML
+*.puml.png
